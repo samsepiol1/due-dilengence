@@ -29,9 +29,9 @@ select_civel = Select(driver.find_element(By.XPATH, '//*[@id="tipoDocumento"]'))
 
 time.sleep(2)
 
-select_civel.select_by_visible_text('Certidão Judicial Criminal Negativa')
+select_civel.select_by_visible_text('Certidão Judicial Cível Negativa de 1º Grau')
 
-select_civel.select_by_value('2')
+select_civel.select_by_value('3')
 
 time.sleep(2)
 
