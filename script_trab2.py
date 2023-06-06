@@ -2,10 +2,14 @@ import requests
 
 url = "https://pje.trt4.jus.br/pje-certidoes-api/api/certidoes/trabalhistas/emissao"
 
+
+# Teste de payload - O payload não funcionou, pois o site possuia uma validação com realção a resposta dada pelo Captcha
+
+
 payload = {
     "criterioDeEmissao": "CPF",
     "nome": "",
-    "numeroDoDocumento": "125.015.044-29",
+    "numeroDoDocumento": "000.000.000.00",
     "respostaDoCaptcha": "03AKH6MREMwZmBnLMplH2_J7ydCAhhDZuMSRZ_WfnmoBXbPHGVUi1l0pp1JKxEwsUtzHAKuQS9xP0x-fLXEAE2y_PjMrJ--QoN0qDT36mZysClsS7Z1QdFQwVkylvq1d4nVNq8l9n4jphzHJ9hnpw1xOIueGpG5RM7wVkcte9D1x6e10bTD5r6Zuz8HtXmlxfMqPMEYd1RdfYZLau53U0N9vdY8oiQKCCunDBlJH7onbSE_CLwCsbi8NHo5HjjvxHlGxIc1GTY7hcSUooKWEF_2_kf2_Y2cESdTP1QbliMFrbdMHhqA4Z17x7cBF79vEw0EvvqSWnmYZoVhi8o7nIF8qs11GwRZK52-CLQWXHKda5ezCoV2xrYT5-SwZ3Br3pmpLsDWE8q9F-gBU2W_OHosuJRbSDhricHLurnptZUrJAzMuoUBBK94mTl4lr2Vyio947UzWMIq1tXFruPn1TrYriJv6jt5HUOrL3TKNQti9xAEJQ9gi2l2ZKkSqrPZo2-fdcsRmj602PLbl3uqYyBuQp4iAEXGe5_-yQNgj82icfXmAO6LCTx3AQ",
 }
 
