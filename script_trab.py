@@ -26,7 +26,7 @@ time.sleep(5)
 
 cpf = driver.find_element(By.XPATH, '/html/body/pje-root/main/pje-emissor-certidao-trabalhista/section/form/mat-card/mat-card-content/p[2]/mat-form-field/div/div[1]/div/input')
 time.sleep(5)
-cpf.send_keys('12501504429')
+cpf.send_keys('Insert CPF Here')
 time.sleep(4)
 
 not_robot = driver.find_element(By.XPATH,'/html/body/div[2]')
